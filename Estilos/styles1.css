@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    height: 70px;
+    background-color:rgb(53, 233, 236);
+    justify-content: space-between;
+    align-items:  center;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(47, 182, 184);
+    border-bottom-width: 10px; /* Linea para el fondo  */
+}
+h2{
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+ 
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+    text-decoration: none;
+
+}
+.logo img{
+    height:100px; /* Altura de los elementos */
+    width: 100px;/* Anchura de los elementos */
+    align-items: center; /* Alinear cosas al centro*/
+    image-rendering: 10px;
+}
+nav{
+    align-items: center;
+} 
+.linea{
+    border-bottom-style: solid;
+    border-bottom-color: rgb(158, 156, 156);
+    border-bottom-width: 20px;
+    padding-top: 150px;
+} 
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    display:contents;
+    font-size: 20px;
+    align-items: center;
+    margin:  0;/* Cresca a proporcion */
+   
+}
+
+nav a{
+    align-items: center;
+    font-weight: 700;
+    padding-right: 50px;
+    color: black;
+    font-size: 20px;
+    
+}
+div p{
+    margin-top: 600px;
+    width: 1000px;
+    height: 150px;
+    size: 400px;
+    font-size: 20px;
+    font-weight: 70;
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    margin: 130px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(91, 225, 227);
+    border-bottom-width: 10px;
+    padding-top: 80px;
+   
+   
+
+}
+.texto1{
+    
+    margin-top:200px;
+    width: 1000px;
+    height: 150px;
+    size: 400px;
+    font-size: 20px;
+    font-weight: 70;
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(91, 225, 227);
+    border-bottom-width: 10px;
+    padding-top: 80px;
+}
+
+
+
+
+
+div img {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    width: 700px;
+    height: auto;
+    align-items:center;
+    float: right;
+    margin-right: 200px;
+   
+    
+}
+div imagen2{
+    left: 1000px;
+}
+div imag p{
+    background-color: aqua;
+}
+nav a:hover{
+    color: white; /* Para que se ilumine una vez pase por encima  */
+}
+@media (max-width: 700px){  /* Cuando baje el tamaño */
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+.capa{
+    background-color: aqua;
+}
+
+
+.img2{
+  margin-left: 200px;
+  
+}
